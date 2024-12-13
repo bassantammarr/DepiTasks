@@ -45,7 +45,6 @@ adhere to the condition that status must be greater than 15.
 3. Use a SELECT statement to pull all columns from the suppliers table.*/
 
 CREATE VIEW vw_high_status_suppliers AS
-SELECT * 
-FROM suppliers
+SELECT * FROM suppliers
 WHERE status > 15
 WITH CHECK OPTION;
